@@ -2,13 +2,15 @@
 
 Questa applicazione console utilizza il modello LLaMa per creare un assistente virtuale che risponde in italiano. Il codice è scritto in C# e utilizza diverse librerie per gestire il caricamento del modello e l'interazione con l'utente.
 
+Ulteriori informazioni nei seguenti articoli.
+- **Come funzionano i Large Language Models LLM , una spiegazione semplice:** [Articolo](https://www.intelligenzaartificialeitalia.net/post/come-funzionano-i-large-language-models-llm-una-spiegazione-semplice)
+- **Come Usare Llama 3 sul Tuo Computer: L'alternativa Gratuita e OpenSource a GPT-4:** [Articolo](https://www.intelligenzaartificialeitalia.net/post/come-usare-llama-3-sul-tuo-computer-l-alternativa-gratuita-e-opensource-a-gpt-4)
+
+
 ## Librerie Utilizzate
 
 - **LLama.Common**: Fornisce le classi e i metodi comuni per lavorare con i modelli LLaMa. [Documentazione](https://scisharp.github.io/LLamaSharp/0.5/GetStarted/)
 - **LLama**: Contiene le API principali per l'inferenza dei modelli LLaMa e la loro integrazione con le applicazioni C#. [Documentazione](https://scisharp.github.io/LLamaSharp/0.5/GetStarted/)
-- **System.Net.Mime.MediaTypeNames**: Utilizzata per gestire i tipi MIME. [Documentazione](https://learn.microsoft.com/en-us/dotnet/api/system.net.mime.mediatypenames?view=net-7.0)
-- **System.Reflection**: Utilizzata per ottenere informazioni sull'assembly in esecuzione. [Documentazione](https://learn.microsoft.com/en-us/dotnet/api/system.reflection?view=net-7.0)
-- **System.Text.RegularExpressions**: Utilizzata per lavorare con le espressioni regolari. [Documentazione](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions?view=net-7.0)
 
 ## Installazione
 
