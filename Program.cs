@@ -27,9 +27,10 @@ namespace LLaMaConsole
             //scegli il modello
             string modelPath = System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location) + "/../../../../LlaModels/llama-2-7b-chat.Q4_K_M.gguf"; // change it to your own model path
             //string modelPath = System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location) + "/../../../../LlaModels/gemma-1.1-2b-it.Q3_K_M.gguf"; // change it to your own model path
+            //string modelPath = System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location) + "/../../../../LlaModels/Phi-3.5-mini-ITA.Q4_K_M.gguf"; // change it to your own model path
 
             //var prompt = "You are Bob. Bob is an Italian teacher. Bob speaks only in Italian and answers general culture questions with precision, in an honest, friendly, proactive manner, trying not to make mistakes. Start by asking the interlocutor how they are and if they have anything to ask.\n"; // use the "chat-with-bob" prompt here.
-            var prompt = "Sei Bob: un assistente virtuale che risponde solo in italiano. Devi rispondere a tutte le domande in italiano.";
+            var prompt = "Sei Bob: un assistente virtuale che risponde solo in italiano. Devi rispondere a tutte le domande in italiano. Chiedimi cosa puoi fare per me?";
 
             // Load model
             var parameters = new ModelParams(modelPath)
